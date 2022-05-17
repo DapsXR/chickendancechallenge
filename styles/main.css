@@ -1,0 +1,28 @@
+.logo {
+    position: absolute;
+    font-size: 2em;
+}
+
+.nav{
+    position:0
+    color:aqua;
+}
+
+.hero {
+    background-image: url("/images/emma_background.jpg");
+    background-position: center;
+    background-size:cover;
+    height:768px;
+    width:100%; 
+    text-align: center;
+}
+h1 {
+    font-size: 5em;
+    color: deepskyblue;
+   
+}
+
+.experiences {
+    display: flex ;
+    flex-direction: row;
+}
