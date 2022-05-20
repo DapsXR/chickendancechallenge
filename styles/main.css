@@ -1,28 +1,79 @@
-.logo {
-    position: absolute;
-    font-size: 2em;
+ body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu';
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
-.nav{
-    position:0
-    color:aqua;
-}
+  div{
+    margin: 0;
+    padding: 0;
+  }
 
 .hero {
     background-image: url("/images/emma_background.jpg");
     background-position: center;
-    background-size:cover;
-    height:768px;
+    background-repeat: no-repeat;
+    height: auto;
     width:100%; 
     text-align: center;
 }
-h1 {
-    font-size: 5em;
-    color: deepskyblue;
+
+.distraction {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    gap:250px;
+}
+.fectar {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    gap: 100px;
+}
+
+.explainer {
+    display: flex;
+    justify-content: center;
    
 }
 
-.experiences {
-    display: flex ;
-    flex-direction: row;
+.explainer img {
+    height: 850;
+    width: 650px;
+   
+}
+
+
+h1 {
+    font-size: 5em;
+    color: deepskyblue;
+}
+
+h2 {
+    font-size: 3em;
+    color: fuchsia;
+}    
+
+h3 {
+    font-size:2em;
+    
+}
+
+img {
+    height: 400px;
+    width: 400px;
+}
+@media (max-width: 600px) {
+    .distraction .explainer .fectar {
+        gap:0;
+}
 }
