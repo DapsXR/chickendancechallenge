@@ -16,7 +16,7 @@
     background-image: url("/images/emma_background.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    height: auto;
+    height: 350px;
     width:100%; 
     text-align: center;
 }
@@ -52,15 +52,16 @@
    
 }
 
-
 h1 {
-    font-size: 5em;
+    font-size: 8em;
     color: deepskyblue;
+    margin:0;
 }
 
 h2 {
     font-size: 3em;
     color: fuchsia;
+    margin:0;
 }    
 
 h3 {
