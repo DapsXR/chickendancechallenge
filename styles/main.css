@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    background-color: #0C1C52;
 }
 
   div{
@@ -13,12 +14,14 @@
   }
 
 .hero {
-    background-image: url("/images/emma_background.jpg");
-    background-position: center;
+    background-image: url("/images/emma_cdcpose.png");
+    background-position:center;
     background-repeat: no-repeat;
-    height:450px;
+    background-color:#0C1C52;
+    height: 500px;
     width:100%; 
     text-align: center;
+
 }
 
 .distraction {
@@ -55,7 +58,7 @@
 h1 {
     font-size: 8em;
     font-family: open sans ;
-    color: rgb(37, 160, 181);
+    color: #ffffff;
     margin:0;
 }
 
@@ -67,18 +70,20 @@ h2 {
 }    
 
 h3 {
-    font-size:3em;
-    color:rgb(26, 154, 154);
+    font-size:2em;
+    color:rgb(255, 255, 255);
     font-family: open sans 
     
 }
 
-img {
-    height: 400px;
-    width: 400px;
+p {
+    color: white;
 }
+
+
 @media (max-width: 600px) {
     .distraction .explainer .fectar {
         gap:0;
+}
 }
 }
