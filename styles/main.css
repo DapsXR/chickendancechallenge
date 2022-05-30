@@ -54,19 +54,22 @@
 
 h1 {
     font-size: 8em;
-    color: deepskyblue;
+    font-family: open sans ;
+    color: rgb(37, 160, 181);
     margin:0;
 }
 
 h2 {
     font-size: 3em;
-    color: fuchsia;
+    color: rgb(142, 14, 142);
     margin:0;
+    font-family: open sans 
 }    
 
 h3 {
     font-size:3em;
-    color:rgb(5, 170, 170);
+    color:rgb(26, 154, 154);
+    font-family: open sans 
     
 }
 
