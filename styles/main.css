@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Ubuntu';
-    display: flex;
+    display: flexbox;
     flex-direction: column;
     text-align: center;
     background-color: #0C1C52;
@@ -14,6 +14,8 @@
   }
 
 .hero {
+    display: flex;
+    flex-direction: column;
     background-image: url("/images/emma_cdcpose.png");
     background-position:center;
     background-repeat: no-repeat;
@@ -56,18 +58,18 @@
 }
 
 h1 {
-    font-size: 8em;
+    font-size: 5em;
     font-family: open sans ;
     color: #ffffff;
     margin:0;
 }
 
 h2 {
-    font-size: 3em;
+    font-size: 2em;
     color: rgb(142, 14, 142);
     margin:0;
     font-family: open sans 
-}    
+}                                                                                                                                          
 
 h3 {
     font-size:2em;
@@ -80,10 +82,20 @@ p {
     color: white;
 }
 
+.share {
+    align-items: center;
+}
 
-@media (max-width: 600px) {
-    .distraction .explainer .fectar {
-        gap:0;
+@media only screen and (max-width: 600px) {
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+    img{
+        size: 250X 250px;
+    }
+    h2, h1 {
+        size: 2em;
+    }
 }
-}
-}
+
