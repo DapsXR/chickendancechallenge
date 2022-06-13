@@ -2,9 +2,7 @@
 {
     width: 100%;
     height: 100%;
-    
-   
-   
+
 } 
  
  body{
@@ -121,6 +119,7 @@ p {
     body {
       display: flex;
       flex-direction: column;
+      overflow: hidden;
     }
     img{
         size: 250X 250px;
