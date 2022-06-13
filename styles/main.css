@@ -116,10 +116,17 @@ p {
   }
 
 @media only screen and (max-width: 600px) {
+    html
+    {
+        width: 100%;
+        height: 100%;
+    
+    } 
+    
     body {
       display: flex;
       flex-direction: column;
-      overflow: hidden;
+      
     }
     img{
         size: 250X 250px;
