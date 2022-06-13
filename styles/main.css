@@ -101,6 +101,10 @@ p {
     padding-top: 15px;
 }
 
+.cdc {
+    color:rgb(142, 14, 142);
+}
+
 
 .fectarapp{
     background-color: #46f24c; /* Green */
@@ -140,7 +144,6 @@ p {
     width:100%; 
     padding-bottom:280px;
    
-    
    
    } 
 
