@@ -5,6 +5,7 @@
     margin:0;
     padding:0;
     overflow-x:hidden;
+    font-family:open sans ;
 
 } 
  
@@ -84,13 +85,35 @@ h2 {
 h3 {
     font-size:2em;
     color:rgb(255, 255, 255);
-    font-family: open sans 
+    font-family: open sans; 
+
+
     
 }
 
 p {
     color: white;
 }
+
+.credits{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+    padding: 10px;
+}
+
+
 
 .qrcode {
     display: block;
@@ -105,8 +128,16 @@ p {
     color:rgb(142, 14, 142);
    font-size: 1.8em;
    font-weight: 900;
+   font-family: open sans;
 }
 
+.disclaimer {
+    color: white;
+}
+
+a {
+    color: aqua;
+}
 
 .fectarapp{
     background-color: #46f24c; /* Green */
@@ -136,6 +167,11 @@ p {
       flex-direction: column;
     }
       
+    .credits{
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
 
     .hero {
     background-image: url("/images/emma_cdcpose.png");
@@ -145,8 +181,6 @@ p {
     height: 700px;
     width:100%; 
     padding-bottom:280px;
-   
-   
    } 
 
     img{
@@ -163,12 +197,5 @@ p {
         margin-left: auto;
         margin-right: auto;
         width: 110%;
-      }
-     .explainer img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 107%;
- 
-     } 
+    }
 }
