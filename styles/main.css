@@ -153,6 +153,17 @@ a {
   .ar {
       padding-bottom: 45px;
   }
+  .epdownload {
+    background-color: #46f24c; /* Green */
+    border: none;
+    border-radius: 35px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 34px;
+  }
 
 @media only screen and (max-width: 600px) {
     html
@@ -197,5 +208,14 @@ a {
         margin-left: auto;
         margin-right: auto;
         width: 110%;
+    }
+
+    .ep {
+        width: 280;
+        height: 75%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+   
     }
 }
