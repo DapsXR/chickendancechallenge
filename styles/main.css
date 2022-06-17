@@ -21,6 +21,17 @@
     margin: 0px;
 }
 
+span {
+    font-family: open sans;
+}
+
+.jabheader {
+    color:aqua
+}
+
+p {
+    font-family: open sans;
+}
   div{
     margin: 0;
     padding: 0;
